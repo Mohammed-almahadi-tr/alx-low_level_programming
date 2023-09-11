@@ -7,9 +7,11 @@
 int main(void)
 {
 int dig = 0;
-for (dig = 0; dig <= 9; dig++)
+
+for (dig = 0; dig <= 15; dig++)
 {
-printf("%i\n", dig);
+putchar(dig + '0');
 }
+putchar('\n');
 return (0);
 }

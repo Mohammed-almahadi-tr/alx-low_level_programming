@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 /**
 *main-Entry point
 *
@@ -7,9 +7,16 @@
 int main(void)
 {
 int dig = 0;
+
 for (dig = 0; dig <= 9; dig++)
 {
-printf("%i\n", dig);
+putchar(dig + '0');
+if (dig < 9)
+{
+putchar(',');
+putchar(' ');
+} 
 }
+putchar('\n');
 return (0);
 }

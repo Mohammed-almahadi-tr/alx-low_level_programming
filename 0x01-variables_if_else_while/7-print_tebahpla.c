@@ -6,10 +6,11 @@
 */
 int main(void)
 {
-int dig = 0;
-for (dig = 0; dig <= 9; dig++)
+char alp = 'z';
+for (alp = 'z'; alp >= 'a'; alp--)
 {
-printf("%i\n", dig);
+putchar(alp);
 }
+putchar('\n');
 return (0);
 }
