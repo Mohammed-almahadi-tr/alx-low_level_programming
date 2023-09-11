@@ -7,11 +7,11 @@
 int main(void)
 {
 int dig = 0;
-  
+
 for (dig = 0; dig <= 9; dig++)
 {
-putchar(dig + '0'); 
+putchar(dig + '0');
 }
-putchar('\n'); 
-return (0); 
+putchar('\n');
+return (0);
 }

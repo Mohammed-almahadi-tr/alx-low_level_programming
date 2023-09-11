@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-  int dig = 0, dig2, dig3;
+int dig = 0, dig2, dig3;
 
 for (dig = 0; dig <= 9; dig++)
 {
@@ -19,7 +19,7 @@ if (dig != dig2  && dig < dig2 && dig2 != dig3 && dig2 < dig3)
 putchar(dig + '0');
 putchar(dig2 + '0');
 putchar(dig3 + '0');
-if (dig+dig2+dig3 != 24)
+if (dig + dig2 + dig3 != 24)
 {
 putchar(',');
 putchar(' ');

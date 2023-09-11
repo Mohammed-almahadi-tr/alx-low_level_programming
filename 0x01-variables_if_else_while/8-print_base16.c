@@ -6,10 +6,14 @@
 */
 int main(void)
 {
-int dig = 0;
+int dig = 0, counter;
 
-for (dig = 0; dig <= 15; dig++)
+for (counter = 0; counter <= 15; counter++)
 {
+if (dig + '0' == 57)
+{
+dig += 39;
+}
 putchar(dig + '0');
 }
 putchar('\n');

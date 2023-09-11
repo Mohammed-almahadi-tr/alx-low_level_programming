@@ -14,12 +14,12 @@ for (dig2 = 0; dig2 <= 99; dig2++)
 {
 if (dig != dig2 && dig < dig2)
 {
-putchar((dig / 10 ) + '0');
-putchar((dig % 10 ) + '0');
+putchar((dig / 10) + '0');
+putchar((dig % 10) + '0');
 putchar(' ');
-putchar((dig2 / 10 ) + '0');
-putchar((dig2 % 10 ) + '0');
-if (dig+dig2 != 197)
+putchar((dig2 / 10) + '0');
+putchar((dig2 % 10) + '0');
+if (dig + dig2 != 197)
 {
 putchar(',');
 putchar(' ');

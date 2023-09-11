@@ -16,7 +16,7 @@ if (dig != dig2 && dig < dig2)
 {
 putchar(dig + '0');
 putchar(dig2 + '0');
-if (dig+dig2 != 17)
+if (dig + dig2 != 17)
 {
 putchar(',');
 putchar(' ');
