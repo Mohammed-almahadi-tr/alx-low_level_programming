@@ -10,11 +10,12 @@ int dig = 0, counter;
 
 for (counter = 0; counter <= 15; counter++)
 {
-if (dig + '0' == 57)
+if (dig + '0' == 58)
 {
 dig += 39;
 }
 putchar(dig + '0');
+dig++;
 }
 putchar('\n');
 return (0);
