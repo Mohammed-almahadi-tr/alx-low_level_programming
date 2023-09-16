@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * _isupper - check if the char is upper or not.
+ *
+ * Return:  0 (lowercase)xcxc, 1 (uppercase).
+ */
+int _isdigit(int c)
+{
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
