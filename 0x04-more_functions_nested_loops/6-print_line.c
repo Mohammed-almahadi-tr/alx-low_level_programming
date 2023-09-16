@@ -4,7 +4,6 @@
  * print_line - print lines.
  *
  * @n: number of times the line is printed.
- * @c: itrator.
  *
  * Return: Always 0 (Success).
  */
