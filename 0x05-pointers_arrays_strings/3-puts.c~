@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * _puts - send the output to stdout.
+ *
+ * @str: the string to be printed.
+ *
+ * Return: nothing.
+ */
+void _puts(char *str)
+{
+char s = &str;
+puts(s);
+}
