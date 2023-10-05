@@ -23,7 +23,8 @@ return (size);
  */
 char *argstostr(int ac, char **av)
 {
-int i = 0, nc = 0, j = 0, cmpt = 0; char *s;
+int i = 0, nc = 0, j = 0, cmpt = 0;
+char *s;
 
 if (ac == 0 || av == NULL)
 return (NULL);
