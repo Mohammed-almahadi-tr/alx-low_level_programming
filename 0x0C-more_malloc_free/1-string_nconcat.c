@@ -3,7 +3,7 @@
  * *string_nconcat - concatenates two strings
  *
  * @s1: pointer to first string.
- *
+ * @n: length.
  * @s2: pointer to 2nd string. On: Number of bytes from n2 to concatenate.
  *
  * Return:Pointer to space in memory containing concatenated string.
