@@ -16,7 +16,7 @@ unsigned int i, j, s1_length, s2_length;
 /*Check if the strings passed are null*/
 if (s1 == NULL)
 s1 = "";
-if (s2 NULL)
+if (s2 == NULL)
 s2 = "";
 /*Compute the length of the strings*/
 for (s1_length = 0; s1[s1_length] != '\0'; s1_length++)
