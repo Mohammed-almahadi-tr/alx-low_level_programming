@@ -1,0 +1,7 @@
+#include "main.h"
+#include <stdio>
+
+int _isalpha(int c)
+{
+return (0);
+}
